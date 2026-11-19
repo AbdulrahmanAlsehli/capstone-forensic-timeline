@@ -8,5 +8,8 @@ MEng-Cybersecurity Capstone, Project 4
 - Abdullah: dashboard development and testing
 
 ## Scope (Semester 1)
-Python tool that correlates Windows Event Logs (EVTX) and Prefetch,
-detects timestamp discrepancies, and assigns evidence confidence levels.
+Python tool that correlates Windows Event Logs (EVTX) and Prefetch artifacts,
+detects timestamp discrepancies, and assigns explainable evidence confidence
+levels. Results are shown in a traceable timeline dashboard (Streamlit) linked
+to the raw evidence, and missing artifacts are treated as unverified rather
+than proof that an event did not occur.
