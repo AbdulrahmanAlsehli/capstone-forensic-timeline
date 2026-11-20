@@ -11,9 +11,7 @@ MEng-Cybersecurity Capstone, Project 4
 Python tool that correlates Windows Event Logs (EVTX) and Prefetch artifacts,
 detects timestamp discrepancies, and assigns explainable evidence confidence
 levels. Results are shown in a traceable timeline dashboard (Streamlit) linked
-to the raw evidence, and missing artifacts are treated as unverified rather
-
-than proof that an event did not occur.
+to the raw evidence, and missing artifacts are treated as unverified rather than proof that an event did not occur.
 ## Repository structure
 - docs/: scope, schema, A1 proposal
 - src/: Python code
